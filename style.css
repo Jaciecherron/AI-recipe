@@ -1,0 +1,12 @@
+body {
+  background-image: url("img/garlic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+
+footer {
+  color: #D5D5D5;
+  text-align: center;
+}
