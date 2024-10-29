@@ -4,9 +4,68 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 800px;
+  font-size: 36px;
+  line-height: 1.5;
+  color:#D5D5D5;
+  text-align: center;
 }
 
 footer {
   color: #D5D5D5;
   text-align: center;
+}
+
+main {
+  background-color: #D5D5D5;
+  max-width: 600px;
+  margin: 120px auto;
+  border-radius: 15px;
+  box-shadow: 0px 20px 60px rgba(97, 147, 98, 0.5);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+padding: 30px;
+border-radius: 15px;
+display: flex;
+margin-bottom: 15px;
+}
+
+.searchBar {
+  padding: 10px;
+  border: 1px solid rgba(91, 94, 85, 0.5);
+  width: 80%;
+  border-radius: 10px;
+  line-height: 20px;
+  color: #5b5e55;
+}
+
+.submitButton {
+  margin-left: 15px;
+  background-color: #619362;
+  border-radius: 15px;
+  border: none;
+  color:#D5D5D5;
+  padding: 15px 24px;
+}
+
+.recipe {
+  font-size: 18px;
+  line-height: 1.5px;
+  font-weight: 400;
+  background-color: #D5D5D5;
+  padding: 15px 24px;
+  border-radius: 15px;
+  margin-left: 30px;
 }
