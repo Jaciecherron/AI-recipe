@@ -19,6 +19,9 @@ let prompt = `You are a top chef AI Assistant and can give a short and simple re
 let context = "generage a recipe with ingredients and instructions";
 let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+let recipeElement = document.querySelector("#recipe");
+recipeElement.innerHTML = `Generating your recipe using ${instructionsInput.value}`;
+
 axios.get(apiURL).then(displayRecipe);
 }
 

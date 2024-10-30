@@ -36,10 +36,20 @@ header {
 }
 
 form {
+display: flex;
+}
+
+.form-wrap {
+margin-bottom: 15px;
 padding: 30px;
 border-radius: 15px;
-display: flex;
-margin-bottom: 15px;
+}
+
+.hint{
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 6px;
+  opacity: 0.6;
 }
 
 .searchBar {
