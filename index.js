@@ -1,7 +1,8 @@
 function displayRecipe (response) {
 
     new Typewriter("#recipe", {
-      strings: response.data.answer,
+      strings: response.data.answer.replace("```html\n", "").replace("```", ""),
+      loop: false,
       autoStart: true,
       delay: 5,
       curser: "",
